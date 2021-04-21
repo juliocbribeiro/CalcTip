@@ -15,8 +15,8 @@ Um aplicativo simples que permite ao usu√°rio calcular uma gorjeta ou gratifica√
 ---
 
 <div align="center" >
-  <img src="./github/video-editado.gif" alt="demo-web" height="400">
-  <img src="./github/video-mobile.gif" alt="demo-web" height="400">
+  <img src="./github/CalcTip-desktop.gif" alt="demo-web" height="400">
+  <img src="./github/CalcTip-mobile.gif" alt="demo-web" height="400">
 </div>
 
 ---
