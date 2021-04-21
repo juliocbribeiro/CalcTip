@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+  <title>CalcTip</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-3">
+        <img src="./img/logo.svg" alt="CalcTip Logo" class="img-logo">
+      </a>
+      <nav class=" grid-13 header_menu">
+        <ul>
+          <li><a href="https://github.com/juliocbribeiro" target="_blank"><img src="./img/github-logo.svg" alt="Github Logo"></a></li>
+          <li><a href="https://linkedin.com/in/juliocbr/" target="_blank"><img src="./img/linkedin-logo.svg" alt="Linkedin Logo"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <form class="tipsForm">
+      <div class="grid-9 titulo">
+        <h1 data-anime="800" class="h1-web fadeInDown">Você <br> foi bem <br> atendido?</h1>
+        <h1 data-anime="800" class="h1-mobile fadeInDown">Você foi bem atendido?</h1>
+      </div>
+
+      <div class="grid-9">
+        <img data-anime="400" class="img-dinner fadeInDown" src="./img/img-dinner.svg" alt="">
+      </div>
+
+      <div class="grid-7 dados-calc">
+        <div data-anime="800" class="dados fadeInDown">
+          <h1>CalcTip</h1>
+          <p class="subtitulo">Sua calculadora de gorjetas</p>
+          <p>Quanto ficou a conta?</p>
+          <span>R$</span><input type="number" class="input-valor" id="input-valor" step="0.1" min="0" placeholder="100" required>
+          <p>Quantas pessoas vão dividir a conta?</p>
+          <input type="number" id="input-pessoas" min="1" placeholder="1" required>
+          <p>Como foi o serviço?</p>
+          <select name="select" id="select" class="formSelect" required>
+            <option value="" disabled selected>Escolha uma opção</option>
+            <option value="0.2">20% - Ótimo</option>
+            <option value="0.1">10% - Bom</option>
+            <option value="0.05">5% - Razoável</option>
+          </select>
+          <div class="res">
+
+          </div>
+
+          <button type="submit" id="button" class="button">Calcular</button>
+          <!-- <input type="button" class="button" value="calcular" onclick="calculateTip()"> -->
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <footer class="container">
+    <div class="grid-16 footer">
+      <p>CalcTip 2021 - Alguns direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+/*==================================Estilo para tablets=================================*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .dados input {
+    width: 200px;
+  }
+  .dados .input-valor {
+    margin-left: 10px;
+  }
+  .dados p {
+    font-size: 14px;
+  }
+  /* span {
+    margin-left: 8px;
+  } */
+  .formSelect {
+    width: 200px;
+  }
+}
+
+/* =========================Final do estilo para Tablets*/
+
+/* ==================================Estilo para smartphone============================*/
+@media only screen and (max-width: 787px) {
+  /*Header*/
+  .header {
+    position: relative;
+    padding-bottom: 0px;
+  }
+  .header img {
+    margin: 0 auto;
+  }
+
+  .header_menu {
+    text-align: center;
+    margin: 0;
+  }
+
+  .header_menu ul li {
+    margin-top: 10px;
+    width: 30px;
+  }
+
+  /*INTRO*/
+  .h1-web {
+    display: none;
+  }
+  .h1-mobile {
+    display: block;
+  }
+  .dados-calc {
+    height: 700px;
+  }
+  .titulo h1 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  .titulo:first-child {
+    margin-top: 25px;
+  }
+  .img-dinner {
+    display: none;
+  }
+  .dados {
+    margin: 0;
+    position: inherit;
+  }
+  .dados input {
+    width: 200px;
+  }
+  .dados .input-valor {
+    margin-left: 10px;
+  }
+  .dados p {
+    font-size: 14px;
+  }
+  span {
+    margin-left: 8px;
+  }
+  .formSelect {
+    width: 200px;
+  }
+}
